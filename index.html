@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./css/style.css">
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"
+        integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous"></script>
+</head>
+<style>
+    body {
+        background-image: url(accets/seryj_odnotonnyj_fon_138531_1280x720.jpg);
+        background-size: cover;
+    }
+</style>
+
+<body>
+    <div class="inputs">
+        <h2>JAVANGERs</h2>
+        <input class="name" type="text" placeholder="Имя...">
+        <input class="position" type="text" placeholder="Позиция...">
+        <input class="description" type="text" placeholder="Описание...">
+        <input class="image" type="text" placeholder="Url изображения...">
+        <input id="username" type="text" placeholder="Поиск...">
+        <button class="add-product">Добавить</button>
+    </div>
+    <div class="products"></div>
+
+    <div class="modal-wrapper">
+        <div class="modal">
+            <input class="edit-name" name="name" type="text" placeholder="Имя">
+            <input class="edit-position" name="price" type="text" placeholder="Положение">
+            <input class="edit-desc" name="description" type="text" placeholder="Описание">
+            <input class="edit-image" name="image" type="text" placeholder="Изображение">
+            <button class="btn-save">Save changes</button>
+        </div>
+    </div>
+
+    <script src="./js/main.js"></script>
+</body>
+
+</html>

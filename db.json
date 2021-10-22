@@ -1,0 +1,25 @@
+{
+  "products": [
+    {
+      "name": "вап",
+      "position": "вап",
+      "description": "вап",
+      "image": "вап",
+      "id": 1
+    },
+    {
+      "name": "вап",
+      "position": "вап",
+      "description": "вап",
+      "image": "вап",
+      "id": 2
+    },
+    {
+      "name": "фваы",
+      "position": "фва",
+      "description": "фав",
+      "image": "фа",
+      "id": 3
+    }
+  ]
+}
